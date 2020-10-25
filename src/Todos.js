@@ -14,7 +14,7 @@ const Todos = ({todos, deleteTodo}) => {
         <p className="center">You have no todos left</p>
     )
     return (
-        <div className="todas collection">
+        <div className="todos collection">
             {todoList}
         </div>
     )
